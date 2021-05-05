@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marriott</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+  </head>
+  <body class="mediabody">
+    <model-viewer
+      class="mediadiv"
+      id="md_lathe"
+      shadow-intensity="1"
+      src="https://cdn.glitch.com/31bbf637-8658-4a6f-a168-d8ad2e59f390%2FMarriott%20AR.glb?v=1618938843883"
+      ios-src="https://cdn.glitch.com/31bbf637-8658-4a6f-a168-d8ad2e59f390%2FMarriott%20AR.usdz?v=1618938819630"
+      alt="Exterior 3D Model"
+      ar
+      auto-rotate
+      camera-controls
+      poster="./spacesuit.jpg"
+      ar-modes="scene-viewer webxr quick-look"
+    >
+      
+      <div class="cards">
+        <div class="card logodiv">
+           <img  class="logo" src="logo.png">
+            <div class="top">
+
+                <a href="" class="lvl">View in Marriot</a>
+            </div>
+        </div>
+        <div class="card scircleddiv">
+          <div class="sitem scircled">
+            <a href="javascript:history.back()" style="text-decoration: none">
+              <div class="sinfocircle">
+                <img
+                  src="https://cdn.glitch.com/31bbf637-8658-4a6f-a168-d8ad2e59f390%2Fback.png?v=1618937596832"
+                  width="30"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="card">
+          <div class="sitem scircled">
+            <div class="sinfocircle">
+              <a href="javascript:history.back()">
+                <span style="color: #000; font-weight: 800"
+                  ><img
+                    src="https://cdn.glitch.com/31bbf637-8658-4a6f-a168-d8ad2e59f390%2Fremix-icons%20(4).png?v=1618905064351"
+                /></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="spageFooter">
+            <br>
+          <!-- <p>www.marriot.com</p> -->
+        </div>
+      </div>
+      
+      <!--slot="ar-button"-->
+
+    </model-viewer>
+  </body>
+</html>
