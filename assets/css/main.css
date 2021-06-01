@@ -45,11 +45,13 @@
 
 
     .btn {
-        margin-left: 35%;
-        text-align: center;
+        /*margin-left: 35%;*/
         margin-top: 20px;
     }
-
+    .btn a{
+        margin: auto;
+        text-align: center;      
+    }
     .btn1 {
         text-decoration: none;
         color: white;
@@ -125,7 +127,6 @@
 
     .bottom-button{
         text-align: center; 
-
         margin-left: 115px; 
         /*margin-top: 110px;*/
     }
@@ -141,7 +142,7 @@
         margin-top: 110px;
     }
     .lvl {
-        width: 130px;
+        /*width: 160px;*/
 
         /*float: right;*/
         /*padding: 11px 15px;*/
@@ -153,9 +154,14 @@
         text-align: center;
 
   }
-
+  .btn2{
+    width: 100%;
+  }
+  .bbtn{
+    margin-left: -15px;
+  }
    .btn {
-        margin-left: 14%;
+        /*margin-left: 14%;*/
         text-align: center;
         /*background-color: red;*/
         margin-top: 20px;
